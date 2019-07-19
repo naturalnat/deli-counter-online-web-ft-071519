@@ -16,7 +16,7 @@ end
 def take_a_number(line, customer)
     line.push(customer)
 
-    puts "Welcome, #{person.last}. You are number #{index+1} in line."
+    puts "Welcome, #{person[-1]}. You are number #{index+1} in line."
 end
 
 def now_serving(line)
