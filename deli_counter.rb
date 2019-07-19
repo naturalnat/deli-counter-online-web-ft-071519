@@ -5,9 +5,9 @@ def line(array)
 
   else
       current_line = "The line is currently"
-      array.each_with_index do |person, index|
+      array.each_with_index.map do |person, index|
       indexplusone = index + 1
-      current_line = "The line is currently" << "#{indexplusone}. #{person}"
+      current_line = "The line is currently: " << "#{indexplusone}. #{person}"
     end
     puts current_line
   end
