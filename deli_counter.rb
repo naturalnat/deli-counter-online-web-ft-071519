@@ -25,6 +25,6 @@ def take_a_number(line, customer)
 end
 
 def now_serving(line)
-  if line.length == 0 
+  if line.length == 0
     puts "There is nobody waiting to be served!"
   
