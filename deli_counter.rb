@@ -9,6 +9,7 @@ def line(array)
       indexplusone = index + 1
       current_line << "#{indexplusone}. #{person}"
     end
+    puts current_line
   end
 end
 
