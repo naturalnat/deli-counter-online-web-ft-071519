@@ -23,3 +23,5 @@ def take_a_number(line, customer)
     puts "Welcome, #{person}. You are number #{indexplusone} in line."
   end
 end
+
+def now_serving()
