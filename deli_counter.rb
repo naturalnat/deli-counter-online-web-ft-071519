@@ -10,7 +10,7 @@ def line(array)
       current_line << "#{indexplusone}. #{person}"
       updated_line = current_line.join(" ")
     end
-    puts updated_line
+    return updated_line
   end
 end
 
