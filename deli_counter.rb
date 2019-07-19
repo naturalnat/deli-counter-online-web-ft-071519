@@ -8,13 +8,12 @@ def line(array)
       array.each_with_index.map do |person, index|
       indexplusone = index + 1
       current_line << "#{indexplusone}. #{person}"
-      puts current_line
     end
   end
 end
 
 def take_a_number(line, customer)
-line.push(customer)
+  line.push(customer)
 
   line.each_with_index.map do |person, index|
     puts "Welcome, #{person}. You are number #{index+1} in line."
