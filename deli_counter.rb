@@ -16,9 +16,7 @@ end
 def take_a_number(line, customer)
     line.push(customer)
 
-    line.each_with_index.map do |person, index|
-      puts "Welcome, #{person}. You are number #{index+1} in line."
-    end
+    puts "Welcome, #{person.last}. You are number #{index+1} in line."
 end
 
 def now_serving(line)
