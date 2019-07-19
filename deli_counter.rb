@@ -17,7 +17,7 @@ def take_a_number(line, customer)
   line = []
   newline = line << customer
 
-  newline.each_with_index do |person, index|
+  newline.each_with_index.map do |person, index|
     indexplusone = index + 1
     puts "Welcome, #{person}. You are number #{indexplusone} in line."
   end
