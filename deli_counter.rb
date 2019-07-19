@@ -8,7 +8,6 @@ def line(array)
       array.each_with_index.map do |person, index|
       indexplusone = index + 1
       current_line << "#{indexplusone}. #{person}"
-      current_line.join(" ")
     end
     puts current_line
   end
