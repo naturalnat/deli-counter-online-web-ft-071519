@@ -4,10 +4,10 @@ def line(array)
     puts "The line is currently empty."
 
   else
-      current_line = "The line is currently: "
+      current_line = "The line is currently:"
       array.each_with_index.map do |person, index|
       indexplusone = index + 1
-      current_line << "#{indexplusone}. #{person}"
+      current_line << " #{indexplusone}. #{person}"
     end
     puts current_line
   end
