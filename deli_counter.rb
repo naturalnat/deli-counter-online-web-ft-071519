@@ -14,7 +14,7 @@ def line(array)
 end
 
 def take_a_number(line, customer)
-  line = []
+  newline = []
   newline = line.push(customer)
 
   newline.each_with_index.map do |person, index|
